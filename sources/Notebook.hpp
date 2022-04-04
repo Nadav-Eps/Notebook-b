@@ -15,7 +15,8 @@ namespace ariel {
          string rows = string(maxi,'_');
                  };
     private :
-
+        map<int , int> max_row;
+        map<int , int> max_cole; 
         unordered_map <int,map<int,rowe>> notebook_1;
 
 
@@ -25,6 +26,9 @@ namespace ariel {
       void write(int page, int row, int col, Direction d,const std::string &s);
       void erase(int page ,int row,int col,Direction d,int len);
       static int is_legit(const std::string &s);
-      static void show(int page);
+      void show(int page);
+      void change_max(int row,int page);
+      int check_max(int page);
+      int check_max_col(int page);
             };
    };
