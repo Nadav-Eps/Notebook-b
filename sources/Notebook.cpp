@@ -173,21 +173,21 @@ int Notebook::is_legit(const string &s){
         return count;
     }
 
-int main(int argc, char const *argv[])
-{
-  ariel::Notebook notebook;
-    notebook.write(1, 2, 2, Direction::Horizontal, "Nadav");
-    notebook.write(1, 4, 15, Direction::Horizontal, "Yosii");
-    notebook.write(1, 6, 18, Direction::Horizontal, "Hello");
-    notebook.write(1, 14, 85, Direction::Horizontal, "Makore");
-    notebook.write(1, 16, 88, Direction::Horizontal, "Shalom");
-    notebook.write(1, 7, 15, Direction::Vertical, "Yalla");
-    notebook.write(1, 21, 56, Direction::Vertical, "Cppc++");
-    notebook.write(1, 31, 31, Direction::Vertical, "Mishma");
-    notebook.write(1, 34, 38, Direction::Vertical, "TryThis");
-    notebook.show(1);
-    notebook.show(2);
-    notebook.erase(1,34,38,Direction::Vertical,7);
-    notebook.show(1);
-    return 0;
-}
+//int main(int argc, char const *argv[])
+//{
+  //ariel::Notebook notebook;
+    //notebook.write(1, 2, 2, Direction::Horizontal, "Nadav");
+    //notebook.write(1, 4, 15, Direction::Horizontal, "Yosii");
+    //notebook.write(1, 6, 18, Direction::Horizontal, "Hello");
+    //notebook.write(1, 14, 85, Direction::Horizontal, "Makore");
+    //notebook.write(1, 16, 88, Direction::Horizontal, "Shalom");
+    //notebook.write(1, 7, 15, Direction::Vertical, "Yalla");
+    //notebook.write(1, 21, 56, Direction::Vertical, "Cppc++");
+    //notebook.write(1, 31, 31, Direction::Vertical, "Mishma");
+    //notebook.write(1, 34, 38, Direction::Vertical, "TryThis");
+    //notebook.show(1);
+    //notebook.show(2);
+    //notebook.erase(1,34,38,Direction::Vertical,7);
+    //notebook.show(1);
+    //return 0;
+//}
